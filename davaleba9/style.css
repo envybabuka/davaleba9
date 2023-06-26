@@ -1,0 +1,118 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+nav ul{
+    display: flex;
+    list-style: none;
+    margin-top: 30px;
+}
+nav ul li{
+    margin-left: 50px;
+    font-size: 18px;
+}
+.bolo{
+    margin-right: 150px;
+}
+nav img{
+    width: auto;
+    height:55px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    margin-left: 150px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: rgba(99, 96, 96, 1);
+
+}
+.dg{
+    background: url(/img/dg.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100vh;
+}
+.dg-content h1{
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+font-size: 79px;
+font-weight: 700;
+line-height: 91px;
+margin-top: 300px;
+}
+.dg-content p{
+    color: white;
+    text-align: center;
+    font-family: Helvetica;
+font-size: 19px;
+font-weight: 400;
+line-height: 22px;
+}
+.dg-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+}
+
+.seqcia-1{
+    margin-right: 150px;
+    margin-left: 150px;
+    display: flex;
+}
+.seqcia-content{
+    margin-right: 150px;
+}
+.seqcia-content h4{
+   color: rgba(99, 96, 96, 1);
+   font-family: Helvetica;
+font-size: 17px;
+font-weight: 400;
+line-height: 20px;
+margin-bottom: 10px;
+}
+.seqcia-content h3{
+    font-family: Helvetica;
+font-size: 28px;
+font-weight: 400;
+line-height: 32px;
+margin-bottom:25px;
+}
+.card-1,.card-2{
+margin-right: 130px;
+}
+.card_1,.card_2{
+    margin-right: 131px;
+}
+.services-img{
+    width: 130%;
+}
+.seqcia-2{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 230px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+}
+.clard-h4{
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-family: Helvetica;
+font-size: 19px;
+font-weight: 400;
+line-height: 22px;
+}
+.card-p{
+    color: rgba(99, 96, 96, 1);
+    font-family: Helvetica;
+font-size: 18px;
+font-weight: 400;
+line-height: 21px;
+}
