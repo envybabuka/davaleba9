@@ -33,7 +33,7 @@ nav ul li a{
 
 }
 .dg{
-    background: url(/img/dg.png);
+    background: url(img/dg.png);
     background-repeat: no-repeat;
     background-size: contain;
     height: 100vh;
