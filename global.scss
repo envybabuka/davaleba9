@@ -1,0 +1,193 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    img{
+        width: auto;
+        height:55px;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        margin-left: 150px;
+    }
+    ul{
+        display: flex;
+        list-style: none;
+        margin-top: 30px;
+        li{
+            margin-left: 50px;
+            font-size: 18px;
+            a{
+                text-decoration: none;
+                color: rgba(99, 96, 96, 1);
+            }
+        }
+    }
+}
+.bolo{
+    margin-right: 150px;
+}
+.burger{
+    font-size: 25px;
+    display: none;
+
+}
+.dg{
+    background: url(img/dg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    height: 100vh;
+}
+.dg-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    h1{
+        color: white;
+        text-align: center;
+        font-family: Helvetica;
+    font-size: 79px;
+    font-weight: 700;
+    line-height: 91px;
+    margin-top: 300px;
+    }
+    P{
+        color: white;
+        text-align: center;
+        font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    }
+} 
+.seqcia-1{
+    margin-right: 230px;
+    margin-left: 150px;
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 120px;
+}
+.seqcia-content{
+    margin-right: 150px;
+    h4{
+        color: rgba(99, 96, 96, 1);
+        font-family: Helvetica;
+     font-size: 17px;
+     font-weight: 400;
+     line-height: 20px;
+     margin-bottom: 10px;
+    }
+    h3{
+        font-family: Helvetica;
+        font-size: 28px;
+        font-weight: 400;
+        line-height: 32px;
+        margin-bottom:25px;
+    }
+}
+.card-1,.card-2{
+    margin-right: 170px;
+    }
+    .card_1,.card_2{
+        margin-right: 171px;
+    }
+    .services-img{
+        min-width:100%;
+        min-height: 100%;
+    }
+    .seqcia-2{
+        display: flex;
+        justify-content: flex-end;
+        margin-right: 230px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+    }
+    .clard-h4{
+        margin-top: 10px;
+        margin-bottom: 5px;
+        font-family: Helvetica;
+    font-size: 19px;
+    font-weight: 400;
+    line-height: 22px;
+    }
+    .card-p{
+        color: rgba(99, 96, 96, 1);
+        font-family: Helvetica;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    }
+    @media (max-width:1680px){
+        .seqcia-1{
+            margin-left: 0px;
+            margin-right: 0px;
+        }
+        .seqcia-content{
+            margin-right: 0px;
+        }
+    }
+    @media (max-width:1490px){
+        .seqcia-1{
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+        }
+        .seqcia-2{
+            flex-wrap: wrap;
+            margin-bottom: 100px;
+        }
+    }
+    @media (max-width:1024px){
+        .seqcia-1{
+            margin-left: 0px;
+            margin-right: 0px;
+            margin-bottom: 0px;
+           flex-direction: column;
+           flex-wrap: nowrap;
+        }
+        .seqcia-2{
+            flex-direction: column;
+            justify-content: center;
+            margin-right: 0px;
+            margin-left: 0px;
+            flex-wrap: nowrap;
+            margin-bottom: 0px;
+        }
+        .services-img{
+            width: 70%;
+        }
+        .card-1,.card-2{
+            margin-right: 0px;
+            }
+            .card_1,.card_2,.card_3{
+                margin-right: 0px;
+            }
+            .seqcia-content{
+                margin-right: 0px;
+                text-align: center;
+            }
+            .clard-h4{
+                text-align: center;
+            }
+            .card-p{
+                text-align: center;
+                margin-bottom: 20px;
+            }
+    }
+    @media (max-width:860px){
+        nav ul li{
+            display: block;
+            display: none;
+        }
+        .bolo{
+            margin-right: 0px;
+        }
+        .burger{
+            display: flex;
+            margin-right: 60px;
+        }
+    }
